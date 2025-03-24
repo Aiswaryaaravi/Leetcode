@@ -1,3 +1,7 @@
+// Find the index of values where sum of any two integer in array which should give target.
+// Input: nums = [3,2,4], target = 6
+// Output: [1,2]
+
 class Solution{
     public int[] twoSum(int[] arr,int tar){
         for(int i=0;i<arr.length;i++){
